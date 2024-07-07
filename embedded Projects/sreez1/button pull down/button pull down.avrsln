@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "button pull down", "button pull down\button pull down.avrgccproj", "{5744F36D-4B9B-4BB6-BDC7-26F3CB1D843C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5744F36D-4B9B-4BB6-BDC7-26F3CB1D843C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{5744F36D-4B9B-4BB6-BDC7-26F3CB1D843C}.Debug|AVR.Build.0 = Debug|AVR
+		{5744F36D-4B9B-4BB6-BDC7-26F3CB1D843C}.Release|AVR.ActiveCfg = Release|AVR
+		{5744F36D-4B9B-4BB6-BDC7-26F3CB1D843C}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

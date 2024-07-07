@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "button without grnd", "button without grnd\button without grnd.avrgccproj", "{869135FC-05AE-4201-A558-7AB4A6B4D470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{869135FC-05AE-4201-A558-7AB4A6B4D470}.Debug|AVR.ActiveCfg = Debug|AVR
+		{869135FC-05AE-4201-A558-7AB4A6B4D470}.Debug|AVR.Build.0 = Debug|AVR
+		{869135FC-05AE-4201-A558-7AB4A6B4D470}.Release|AVR.ActiveCfg = Release|AVR
+		{869135FC-05AE-4201-A558-7AB4A6B4D470}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
