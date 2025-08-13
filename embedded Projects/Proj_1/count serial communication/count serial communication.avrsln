@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "count serial communication", "count serial communication\count serial communication.avrgccproj", "{0890135A-AFD4-4DB7-82A7-89A7785D45D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0890135A-AFD4-4DB7-82A7-89A7785D45D2}.Debug|AVR.ActiveCfg = Debug|AVR
+		{0890135A-AFD4-4DB7-82A7-89A7785D45D2}.Debug|AVR.Build.0 = Debug|AVR
+		{0890135A-AFD4-4DB7-82A7-89A7785D45D2}.Release|AVR.ActiveCfg = Release|AVR
+		{0890135A-AFD4-4DB7-82A7-89A7785D45D2}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

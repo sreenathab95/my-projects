@@ -1,0 +1,34 @@
+﻿------ Build started: Project: 7 segment with loop, Configuration: Debug AVR ------
+Build started.
+Project "7 segment with loop.avrgccproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "C:\Program Files (x86)\Atmel\AVR Studio 5.0\Vs\AvrGCC.targets" from project "E:\sreez\7 segment with loop\7 segment with loop\7 segment with loop.avrgccproj" (target "Build" depends on it):
+	Task "RunAvrGCC"
+		C:\Program Files (x86)\Atmel\AVR Studio 5.0\AVR ToolChain\bin\make.exe all 
+7 segment with loop.c
+		Invoking: AVR/GNU C Compiler
+		"C:/Program Files (x86)/Atmel/AVR Studio 5.0/AVR ToolChain/bin/avr-gcc.exe" -funsigned-char -funsigned-bitfields -O0 -fpack-struct -fshort-enums -g2 -Wall -c -std=gnu99  -mmcu=atmega16   -MD -MP -MF"7 segment with loop.d" -MQ"7 segment with loop.o" -o"7 segment with loop.o" ".././7 segment with loop.c"
+		Finished building: .././7 segment with loop.c
+		Building target: 7 segment with loop.elf
+		Invoking: AVR/GNU C/C++ Linker
+		"C:/Program Files (x86)/Atmel/AVR Studio 5.0/AVR ToolChain/bin/avr-gcc.exe"  -mmcu=atmega16  -Wl,-Map="7 segment with loop.map" -o "7 segment with loop.elf"  "7 segment with loop.o"  
+		Finished building target: 7 segment with loop.elf
+		"C:/Program Files (x86)/Atmel/AVR Studio 5.0/AVR ToolChain/bin/avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature  "7 segment with loop.elf" "7 segment with loop.hex"
+		"C:/Program Files (x86)/Atmel/AVR Studio 5.0/AVR ToolChain/bin/avr-objdump.exe" -h -S "7 segment with loop.elf" > "7 segment with loop.lss"
+		"C:/Program Files (x86)/Atmel/AVR Studio 5.0/AVR ToolChain/bin/avr-objcopy.exe" -j .eeprom --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0 --no-change-warnings -O ihex "7 segment with loop.elf" "7 segment with loop.eep" || exit 0
+		AVR Memory Usage
+		----------------
+		Device: atmega16
+		Program:     360 bytes (2.2% Full)
+		(.text + .data + .bootloader)
+		Data:         10 bytes (1.0% Full)
+		(.data + .bss + .noinit)
+	Done executing task "RunAvrGCC".
+Done building target "CoreBuild" in project "7 segment with loop.avrgccproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "C:\Program Files (x86)\Atmel\AVR Studio 5.0\Vs\Avr.common.targets" from project "E:\sreez\7 segment with loop\7 segment with loop\7 segment with loop.avrgccproj" (entry point):
+Done building target "Build" in project "7 segment with loop.avrgccproj".
+Done building project "7 segment with loop.avrgccproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

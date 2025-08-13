@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "led", "led\led.avrgccproj", "{7814B997-417D-4796-9E02-D5EBF5B5E0A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7814B997-417D-4796-9E02-D5EBF5B5E0A4}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7814B997-417D-4796-9E02-D5EBF5B5E0A4}.Debug|AVR.Build.0 = Debug|AVR
+		{7814B997-417D-4796-9E02-D5EBF5B5E0A4}.Release|AVR.ActiveCfg = Release|AVR
+		{7814B997-417D-4796-9E02-D5EBF5B5E0A4}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
